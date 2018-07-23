@@ -3,7 +3,7 @@
 
 Run redis-server on a terminal.
 
-![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/1.JPG)
+<img src="redis/1.JPG" />
 
 Run client instance on another terminal
 

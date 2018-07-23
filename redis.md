@@ -7,7 +7,7 @@ Run redis-server on a terminal.
 
 Run client instance on another terminal
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/2.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/2.JPG)
 
 ## Redis Strings
 
@@ -46,7 +46,7 @@ flushall  # flushes all the keys in the DB
 hmset stu-1 name hari age 15 class 10
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/3.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/3.JPG)
 
 ### Accessing fields in a hash
 
@@ -59,14 +59,14 @@ hget stu-1 age
 hget stu-1 class
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/4.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/4.JPG)
 
 
 ```python
 hgetall stu-1
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/5.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/5.JPG)
 
 ### Check if a field exists in a key
 
@@ -76,7 +76,7 @@ hexists stu-1 name
 hexists stu-1 surname
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/6.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/6.JPG)
 
 ### Delete a field in a key
 
@@ -85,7 +85,7 @@ hexists stu-1 surname
 hdel stu-1 class
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/7.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/7.JPG)
 
 ### Set a field only if it doesn't exists
 
@@ -95,4 +95,4 @@ hsetnx stu-1 name tom
 hsetnx stu-1 nameT tom
 ```
 
-![image.png](![image](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/8.JPG))
+![image.png](https://github.com/Hariharan98m/jupyter-notebooks/blob/master/redis/8.JPG)
